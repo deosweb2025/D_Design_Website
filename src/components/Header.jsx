@@ -33,6 +33,8 @@ export default function Header() {
       const target = document.querySelector(href);
       if (target) {
         target.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        window.location.href = '/' + href;
       }
     }
   };

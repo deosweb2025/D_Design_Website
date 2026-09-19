@@ -33,31 +33,34 @@ export default function Home() {
       {/* 2. Hero Section (Depicter Slider 2) */}
       <HeroSlider />
 
-      {/* 3. Section 2 & 3: What We Do & Service Cards */}
-      <ServicesSection />
-
-      {/* 4. Section 4: Spacer */}
-      <Spacer size="130px" tabletSize="70px" mobileSize="50px" />
-
-      {/* 5. Section 5: How It Works */}
-      <HowItWorksSection />
-
-      {/* 6. Section 6: Spacer */}
-      <Spacer size="130px" tabletSize="70px" mobileSize="50px" />
-
-      {/* 7. Section 7: CTA Banner */}
-      <CtaBanner />
-
-      {/* 8. Section 8: Spacer */}
-      <Spacer size="130px" tabletSize="70px" mobileSize="50px" />
-
-      {/* 9. Section 9: 4-Image Feature Grid */}
-      <FeatureGrid />
-
-      {/* 10. Section 10: Why D & D Designs? */}
+      {/* 3. About Section (Why D & D Designs?) */}
       <WhyUsSection />
 
-      {/* 11. Section 11: Spacer */}
+      {/* 4. Section Spacer */}
+      <Spacer size="130px" tabletSize="70px" mobileSize="50px" />
+
+      {/* 5. Services Section (What We Do & Service Cards) */}
+      <ServicesSection />
+
+      {/* 6. Section Spacer */}
+      <Spacer size="130px" tabletSize="70px" mobileSize="50px" />
+
+      {/* 7. How It Works Section */}
+      <HowItWorksSection />
+
+      {/* 8. Section Spacer */}
+      <Spacer size="130px" tabletSize="70px" mobileSize="50px" />
+
+      {/* 9. CTA Banner */}
+      <CtaBanner />
+
+      {/* 10. Section Spacer */}
+      <Spacer size="130px" tabletSize="70px" mobileSize="50px" />
+
+      {/* 11. 4-Image Feature Grid Collage */}
+      <FeatureGrid />
+
+      {/* 12. Section Spacer */}
       <Spacer size="130px" tabletSize="70px" mobileSize="50px" />
 
       {/* 12. Section 12 & 13: Some Insights & 15-Photo Gallery */}

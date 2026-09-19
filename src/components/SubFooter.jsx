@@ -8,12 +8,12 @@ export default function SubFooter() {
       <p className="font-montserrat text-[10px] sm:text-[15px] font-normal text-[#F4F5F6] leading-[1.4]">
         Copyright &copy; {currentYear} D &amp; D Designs - Powered by{' '}
         <a
-          href="http://teamdeos.com/"
+          href="https://www.teamdeoskolkata.in/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[#ffd6d6] hover:underline"
+          className="font-bold hover:text-red-700 transition-colors duration-300 ml-1"
         >
-          Digital Exposure Online Services
+          Digital Exposure Online Service
         </a>
       </p>
     </div>

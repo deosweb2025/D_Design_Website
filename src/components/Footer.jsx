@@ -4,8 +4,8 @@ import { MapPin, Phone, Mail } from 'lucide-react';
 export default function Footer() {
   const quickLinks = [
     { name: 'Home', href: '#home' },
-    { name: 'Service', href: '#service' },
     { name: 'About', href: '#about' },
+    { name: 'Service', href: '#service' },
     { name: 'Gallery', href: '#gallery' },
     { name: 'Testimonials', href: '#testimonial' },
   ];

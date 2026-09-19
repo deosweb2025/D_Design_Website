@@ -11,6 +11,8 @@ export default function MobileMenu({ isOpen, onClose }) {
       const el = document.querySelector(hash);
       if (el) {
         el.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        window.location.href = '/' + hash;
       }
     }
   };

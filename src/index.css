@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --theme-palette-color-1: #000000;
+  --theme-palette-color-2: #242121;
+  --theme-palette-color-3: #151515;
+  --theme-palette-color-4: #111518;
+  --theme-palette-color-5: #E9EBEC;
+  --theme-palette-color-6: #F4F5F6;
+  --theme-palette-color-7: #ffffff;
+  --theme-palette-color-8: #ffffff;
+  --theme-text-color: #e5e5e5;
+  --theme-link-initial-color: #dcc0c0;
+  --theme-link-hover-color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+  color: #e5e5e5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0.05rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Elementor / Blocksy replica button */
+.btn-ghost-white {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  font-family: 'Rubik', 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.11);
+}
+
+.btn-ghost-white:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@media (max-width: 767px) {
+  .btn-ghost-white {
+    font-size: 12px;
+    border-radius: 4px;
+  }
+}
